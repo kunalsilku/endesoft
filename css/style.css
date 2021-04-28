@@ -301,6 +301,17 @@ button {
      padding: 40px 40px 40px 40px;
 }
 
+#logo-img {
+  background: url('../images/endesoft_logo.png') no-repeat;
+  background-size: 180px;
+  width: 180px;
+  height: 70px;
+  /*max-width: 100%;
+  height: auto;*/
+  margin: 0px 15px 10px 0;
+}
+
+
 .logo a {
      font-size: 40px;
      font-weight: bold;
@@ -589,6 +600,80 @@ button {
 
 
 /** end why section **/
+
+
+/** About section **/
+
+.About {
+     margin-top: 90px;
+     padding: 60px 0;
+     background: #0c0f38;
+     font-family: Poppins;
+}
+
+.About .titlepage {
+     text-align: center;
+}
+
+.About .titlepage h2 {
+     color: #fff;
+     padding-bottom: 20px;
+}
+
+.About .titlepage p {
+     color: #fff;
+}
+
+.About .Services-box i {
+     background: #fff;
+     background-size: 100px;
+     width: 100px;
+     height: 100px;
+     border-radius: 50px;
+     display: inline-block;
+     padding-top: 19px;
+}
+
+/*
+.About .Services-box i:hover {
+     background: #ddd;
+}
+*/
+
+.About .Services-box h3 {
+     padding: 20px 0px 20px 0px;
+     font-size: 20px;
+     line-height: 25px;
+     color: #fff;
+     display: block;
+     font-weight: 500;
+}
+
+.About .Services-box {
+     text-align: center;
+     background-color: transparent;
+     border-radius: 20px;
+     border: #cecfd7 solid 2px;
+     padding: 40px;
+     transition: ease-in all 0.5s;
+     margin-bottom: 30px;
+}
+
+/*
+.About .Services-box:hover {
+     background: #8308eb;
+     transition: ease-in all 0.5s;
+     cursor: pointer;
+}
+*/
+
+.About .Services-box p {
+     font-size: 16px;
+     line-height: 24px;
+     color: #fff;
+}
+
+/** end About section **/
 
 
 /** contact section **/
