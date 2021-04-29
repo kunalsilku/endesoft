@@ -742,6 +742,19 @@ button {
      color: #0c0f38;
 }
 
+#tel-no{
+     color:white;
+}
+#tel-no:hover {
+     color:yellow;
+}
+
+#mail-id{
+     color:white;
+}
+#mail-id:hover {
+     color:yellow;
+}
 
 /** end footer **/
 
